@@ -23,24 +23,3 @@
 
 
 
-### Node.JS
-JavaScript kullanarak sunucu tarafında çalışan uygulamalar geliştirebileceğimiz bir Back-End teknolojisidir. JavaScript temelli olmasından dolayı dinamik ve hızlı bir yapısı vardır. En önemli özelliği ise asenkron yapıda çalışmasıdır. 
-
-### Joi
-JavaScript için şema hazırlayarak veri doğrulamayı sağlayan bir npm kütüphanesidir. 
-JSON Web Token (JWT), iletişim yapan birimler arasındaki veri alışverişinin güvenli bir şekilde sağlanması için bir JSON nesnesi (token) kullanarak daha kompakt ve bilginin kendini kendini betimlediği bir yol sunan endüstri standardıdır.
-
-### JWT
-
-JSON Web Token (JWT), veri alışverişinin güvenli bir şekilde sağlanması için JSON nesnesi (token) kullanarak bilginin kendini kendini betimlediği bir yol sunan standarttır. 
-
-JWT kullanabileceğimiz zamanlar: 
-
-###### Kimliklendirme: 
-En temel kullanım senaryosu olduğu söylenebilir. Kullanıcının başarılı giriş işlemi sonrasında gerçekleştireceği her istek JWT’yi içermektedir. Böylelikle kullanıcının ulaşacağı kaynaklara/web sayfalarına erişim bilgisi bu token bilgisi ile kontrol edilebilmektedir. Farklı domainler arasında kolayca token değiş-tokuşu sağlandığı için, tek seferlik giriş (single sign on) senaryolarında yoğun olarak kullanılabilmektedir.
-
-###### Bilgi değiş-tokuşu: 
-JWT’ler dijital olarak imzalanabilmektedir. Bu yüzden de bilginin iletişim yapan birimler arası güvenli bir şekilde gerçekleşebilmesi için iyi bir yöntem sunmaktadır. Örneğin açık/gizli anahtar ikilileri kullanıldığında bilgiyi gönderen kişinin gerçekte kim olduğunu söylemek mümkün olmaktadır. Buna ek olarak ise JWT’deki header ve payload kısımları dahil edilerek oluşturulan imza sayesinde gelen bilginin değiştirilip/değiştirilmediği kolayca doğrulanabilmektedir.
-
-
-
